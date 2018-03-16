@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace NeuralNetTest.DeepHorst
 {
-    class InputNeuron
+    class InputNeuron : Neuron
     {
+        private float inputValue;
+
+        public void SetInputValue(float value)
+        {
+            this.inputValue = value;
+        }
     }
 }

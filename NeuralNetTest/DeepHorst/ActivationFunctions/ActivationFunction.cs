@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NeuralNetTest.DeepHorst
+namespace NeuralNetTest.DeepHorst.ActivationFunctions
 {
-    class Perceptron
+    interface ActivationFunction
     {
+        float Calc(float inputValue);
     }
 }

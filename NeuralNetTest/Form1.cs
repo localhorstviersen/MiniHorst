@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NeuralNetTest.DeepHorst;
 
 namespace NeuralNetTest
 {
@@ -15,6 +16,8 @@ namespace NeuralNetTest
         public Form1()
         {
             InitializeComponent();
+            Network n = new Network();
+
         }
     }
 }

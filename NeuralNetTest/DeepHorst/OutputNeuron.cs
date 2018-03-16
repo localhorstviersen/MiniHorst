@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NeuralNetTest.DeepHorst
 {
-    class OutputNeuron
+    class OutputNeuron : Neuron
     {
     }
 }
